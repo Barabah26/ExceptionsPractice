@@ -15,7 +15,7 @@ namespace ExeptionsTasks
         {
         }
 
-        public InvalidTransactionException(string message, Exception Exception) : base(message)
+        public InvalidTransactionException(string message, Exception exception) : base(message, exception)
         {
         }
 
